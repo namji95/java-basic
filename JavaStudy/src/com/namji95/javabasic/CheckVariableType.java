@@ -24,13 +24,13 @@ public class CheckVariableType {
 //		List<Integer> list2 = new ArrayList<Integer>();
 		
 //		getClass().getName(); 이 메소드는 객체만 호출할 수 있습니다.
-//		System.out.println("getClass().getName(); : " + ((Object) i).getClass().getName());
-//		System.out.println("getClass().getName(); : " + ((Object) d).getClass().getName());
-//		System.out.println("getClass().getName(); : " + I.getClass().getName());
-//		System.out.println("getClass().getName(); : " + s.getClass().getName());
-//		System.out.println("getClass().getName(); : " + b.getClass().getName());
-//		System.out.println("getClass().getName(); : " + list1.getClass().getName());
-//		System.out.println("getClass().getName(); : " + list2.getClass().getName());
+		System.out.println("getClass().getName(); : " + ((Object) i).getClass().getName());
+		System.out.println("getClass().getName(); : " + ((Object) d).getClass().getName());
+		System.out.println("getClass().getName(); : " + I.getClass().getName());
+		System.out.println("getClass().getName(); : " + s.getClass().getName());
+		System.out.println("getClass().getName(); : " + b.getClass().getName());
+		System.out.println("getClass().getName(); : " + list1.getClass().getName());
+		System.out.println("getClass().getName(); : " + list2.getClass().getName());
 		
 //		getClass().getTypeName(); 이 메소드는 객체만 호출할 수 있습니다.
 //		System.out.println("getClass().getTypeName(); : " + ((Object) i).getClass().getTypeName());

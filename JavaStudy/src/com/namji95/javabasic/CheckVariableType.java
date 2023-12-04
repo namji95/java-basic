@@ -15,13 +15,13 @@ public class CheckVariableType {
 		 */
 		
 //		계속 사용할 변수
-//		int i = 0;
-//		double d = 1.0;
-//		Integer I = 0;
-//		String s = "";
-//		Boolean b = true;
-//		List<String> list1 = new ArrayList<String>();
-//		List<Integer> list2 = new ArrayList<Integer>();
+		int i = 0;
+		double d = 1.0;
+		Integer I = 0;
+		String s = "";
+		Boolean b = true;
+		List<String> list1 = new ArrayList<String>();
+		List<Integer> list2 = new ArrayList<Integer>();
 		
 //		getClass().getName(); 이 메소드는 객체만 호출할 수 있습니다.
 		System.out.println("getClass().getName(); : " + ((Object) i).getClass().getName());
